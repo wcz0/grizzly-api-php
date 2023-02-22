@@ -2,7 +2,7 @@
 
 return [
     // 应用名称
-    'name'           => 'Slow Admin',
+    'name'           => 'Grizzly Admin',
 
     // 应用 logo
     'logo'           => '/admin/logo.png',
@@ -22,7 +22,7 @@ return [
     ],
 
     'auth' => [
-        'login_captcha' => true,
+        'login_captcha' => false,
         'enable'        => true,
         'model'         => \Slowlyo\SlowAdmin\Models\AdminUser::class,
         'controller'    => \Slowlyo\SlowAdmin\Controllers\AuthController::class,
